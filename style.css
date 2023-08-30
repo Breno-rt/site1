@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(192, 19, 19);
+    
+    font-weight: 400; /*Qntd em negrito ta a letra*/
+    
+    font-family: Verdana, Tahoma, sans-serif; /*Familia de letras, caso não tenha as desejadas em ordem*/
+    
+    font-size: 15px;/*Tamanho da letra*/
+    
+    line-height: 2.2em/*Espaçamento entre linhas, em -> unidade relaitva (melhor que absoluta) de dentro pra fora*/;
+
+    color: rgba(17, 10, 10, 0.849);/*Cor da letra*/
+}
+
+header{
+    background-color: black;
+    color: rgb(192, 19, 19);
+    padding: 10px;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 25px;
+    text-transform: uppercase;/*Colocando em maiúsculo*/
+    font-weight: 500;
+}
+
+h4{
+    font-size: 20px;
+}
+
+h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h5{
+    font-size: small;
+}
+
+section{
+    margin: 30px;
+}
+footer{
+    margin: 30px; /*Para não ficar colado com os cantos da página*/
+    text-align: center;
+}
